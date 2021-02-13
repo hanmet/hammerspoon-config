@@ -57,3 +57,7 @@ hotkey.bind(CMD_CTRL, 'LEFT', function()
     f.h = max.h
     win:setFrame(f)
 end)
+
+-- move window to display
+hotkey.bind(CTRL_ALT, 'LEFT', moveWindowToDisplay(2))
+hotkey.bind(CTRL_ALT, 'RIGHT', moveWindowToDisplay(1))
