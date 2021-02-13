@@ -51,7 +51,7 @@ hotkey.bind(CMD_CTRL, 'LEFT', function()
     local screen = win:screen()
     local max = screen:frame()
 
-    f.x = max.x / 2
+    f.x = max.x
     f.y = max.y
     f.w = max.w / 2
     f.h = max.h
